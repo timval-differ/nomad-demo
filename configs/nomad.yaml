@@ -18,6 +18,15 @@ plugins:
       nomad_north_jupyter.north_tools:jupyter:
         north_tool:
           image: ghcr.io/timval-differ/nomad-demo/jupyter:main
+  include:
+      - "nomad_material_processing:schema"
+      - "nomad_material_processing.solution:schema"
+      - "nomad_material_processing.vapor_deposition.cvd:schema"
+      - "nomad_material_processing.vapor_deposition.pvd:schema"
+      - "nomad_material_processing.vapor_deposition.pvd:mbe_schema"
+      - "nomad_material_processing.vapor_deposition.pvd:pld_schema"
+      - "nomad_material_processing.vapor_deposition.pvd:sputtering_schema"
+      - "nomad_material_processing.vapor_deposition.pvd:thermal_schema"
 
 meta:
   deployment: "My Custom Oasis"
