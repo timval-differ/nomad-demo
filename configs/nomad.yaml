@@ -1,4 +1,5 @@
 services:
+  # CHANGE THIS: Use your actual server hostname or domain instead of localhost
   api_host: "localhost"
   api_base_path: "/nomad-oasis"
 
@@ -6,17 +7,12 @@ oasis:
   is_oasis: true
   uses_central_user_management: true
 
-plugins:
-  include:
-      - "nomad_material_processing:schema"
-      - "nomad_material_processing.solution:schema"
-      - "nomad_material_processing.vapor_deposition.cvd:schema"
-      - "nomad_material_processing.vapor_deposition.pvd:schema"
-      - "nomad_material_processing.vapor_deposition.pvd:mbe_schema"
-      - "nomad_material_processing.vapor_deposition.pvd:pld_schema"
-      - "nomad_material_processing.vapor_deposition.pvd:sputtering_schema"
-      - "nomad_material_processing.vapor_deposition.pvd:thermal_schema"
+# This block handles your Jupyter hub settings
+north:
+  jupyterhub_crypt_key: "e7d155b561c0cc9af9dac798a69d485d27d2e70a479b5b0a68b67885052f9e16"
+  hub_connect_ip: 'host.docker.internal'
 
+plugins:
   entry_points:
     options:
       nomad_north_jupyter.north_tools:jupyter:
@@ -24,12 +20,12 @@ plugins:
           image: ghcr.io/timval-differ/nomad-demo/jupyter:main
 
 meta:
-  deployment: "oasis"
-  deployment_url: "https://my-oasis.org/api"
-  maintainer_email: "me@my-oasis.org"
+  deployment: "My Custom Oasis"
+  deployment_url: "https://localhost:8000/nomad-oasis"
+  maintainer_email: "test@example.com"
 
-logstash:
-  enabled: false
+logtransfer:
+  enabled: false # Set to true if you want to activate log shipping
 
 temporal:
   enabled: true
