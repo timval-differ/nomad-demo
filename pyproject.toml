@@ -39,7 +39,8 @@ plugins = [
     "pynxtools-spm==0.2.4",
     "pynxtools-xps==0.6.1",
     "pynxtools-xrd==0.0.8",
-    "nomad-material-processing @ git+https://github.com/FAIRmat-NFDI/nomad-material-processing.git@v1.0.6"
+    "nomad-material-processing @ git+https://github.com/timval-differ/nomad-material-processing.git@main"
+    
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
