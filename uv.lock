@@ -3838,7 +3838,7 @@ requires-dist = [
     { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = "==0.2.7" },
     { name = "pynxtools-raman", marker = "extra == 'plugins'", specifier = "==0.1.2" },
     { name = "pynxtools-spm", marker = "extra == 'plugins'", specifier = "==0.2.4" },
-    { name = "pynxtools-xps", marker = "extra == 'plugins'", specifier = "==0.6.1" },
+    { name = "pynxtools-xps", marker = "extra == 'plugins'", specifier = "==0.6.2" },
     { name = "pynxtools-xrd", marker = "extra == 'plugins'", specifier = "==0.0.8" },
 ]
 provides-extras = ["plugins", "jupyter", "gpu-action", "cpu-action", "dev"]
@@ -5665,16 +5665,16 @@ wheels = [
 
 [[package]]
 name = "pynxtools-xps"
-version = "0.6.1"
+version = "0.6.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "igor2" },
     { name = "jsonschema" },
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7a/2a/c82c32eba413c1dfec9b650296e3b623783972e5a3895a4315d86a6deb03/pynxtools_xps-0.6.1.tar.gz", hash = "sha256:9ab5ee9b1bcbce73c5f6ee0bf16d89c09dacad92fd15b7eae29822836fb5249f", size = 5516119, upload-time = "2026-03-24T18:54:08.964Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/d9/6671e4b98224d3cb0e521eda30c302d1a7888b2d478d370fa5b98e3afd87/pynxtools_xps-0.6.2.tar.gz", hash = "sha256:2e11ed92695ed6042713fde2393056394911db605cc5be7ce1a4e15e42537a85", size = 5516149, upload-time = "2026-04-09T16:18:01.519Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f5/8c/5a7daa99afc48bf1cb759648aec97b1bd2e0d0e1621fee8025541eede4f8/pynxtools_xps-0.6.1-py3-none-any.whl", hash = "sha256:bb24bae04d3d09b662bd15a5d4c6c2ed9b9dcc7114d2ecf3951488bd233bccad", size = 5610485, upload-time = "2026-03-24T18:54:06.498Z" },
+    { url = "https://files.pythonhosted.org/packages/58/2a/c7ccaae7bb6657f20da8eeb98b2cb8be0d55de5cdeda371ff4bc8be8a699/pynxtools_xps-0.6.2-py3-none-any.whl", hash = "sha256:10730ba2070ba62463e44a4ecaba1a5940c62ad27dad4d7a0661ce2e15e4c387", size = 5610485, upload-time = "2026-04-09T16:17:59.454Z" },
 ]
 
 [[package]]

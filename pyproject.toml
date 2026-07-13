@@ -37,7 +37,7 @@ plugins = [
     "pynxtools-mpes==0.2.7",
     "pynxtools-raman==0.1.2",
     "pynxtools-spm==0.2.4",
-    "pynxtools-xps==0.6.1",
+    "pynxtools-xps==0.6.2",
     "pynxtools-xrd==0.0.8",
     "nomad-material-processing @ git+https://github.com/timval-differ/nomad-material-processing.git@main"
     
