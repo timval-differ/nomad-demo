@@ -140,6 +140,10 @@ Below are instructions for how to deploy this NOMAD Oasis distribution
     docker compose up -d
     ```
 
+> [!NOTE]
+> When using Podman instead of Docker you can use all Docker tools, including CLI, with the Podman engine without any reconfiguration. These tools connect to the default Podman socket, thereby enabling you to use all Docker commands with Podman. For example, you can run the `docker run` command on the Podman engine to start a container.
+> For more information, check out the [documentation](https://podman-desktop.io/docs/migrating-from-docker/managing-docker-compatibility).
+
 8. (Optional) You can now test that NOMAD is running with
 
     ```sh
