@@ -3030,7 +3030,7 @@ requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "jupyterhub", marker = "extra == 'jupyter'" },
     { name = "jupyterlab-server", marker = "extra == 'jupyter'" },
-    { name = "nomad-gui", marker = "extra == 'plugins'", specifier = "==2.0.0b1" },
+    { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0a2.dev352" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'", specifier = "==1.4.2" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.2" },
     { name = "nomad-material-processing", marker = "extra == 'plugins'", git = "https://github.com/timval-differ/nomad-material-processing.git?rev=main" },
