@@ -37,7 +37,11 @@ plugins = [
     "nomad-gui==2.0.0b1"
 ]
 
-jupyter = ["jupyter-events"]
+jupyter = [
+  "jupyter-events",
+  "jupyterhub",
+  "jupyterlab_server",
+]
 gpu-action = []
 cpu-action = []
 
