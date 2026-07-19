@@ -29,7 +29,7 @@ repository = "https://github.com/timval-differ/nomad-demo"
 # Add your plugins to the list below.
 plugins = [
     "nomad-north-jupyter>=0.2.5",
-    "pynxtools>=0.13.2",
+    "pynxtools>=0.15.0",
     "pynxtools-ellips==0.1.2",
     "pynxtools-xrd==0.0.8",
     "nomad-measurements>=1.3.4",
