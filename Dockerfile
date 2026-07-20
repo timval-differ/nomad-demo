@@ -259,4 +259,4 @@ COPY --from=jupyter_builder /opt/conda /opt/conda
 RUN touch ${HOME}/.hushlogin
 
 # Fix pyzmq C-extension mismatch
-RUN uv pip install --no-cache-dir --force-reinstall pyzmq
+RUN uv pip install --system --no-cache-dir --force-reinstall pyzmq
