@@ -37,7 +37,7 @@ plugins = [
     "pynxtools-xrd==0.0.8",
     "nomad-measurements>=1.3.4",
     "nomad-material-processing @ git+https://github.com/timval-differ/nomad-material-processing.git@main",
-    "nomad-gui @ git+https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-gui.git@develop"
+    "nomad-gui >= 2.0.0a1"
 ]
 
 jupyter = [
