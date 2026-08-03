@@ -3705,7 +3705,7 @@ requires-dist = [
     { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0b1" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'", specifier = "==1.4.3" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.3" },
-    { name = "nomad-material-processing", marker = "extra == 'plugins'", git = "https://github.com/timval-differ/nomad-material-processing.git?rev=main" },
+    { name = "nomad-material-processing", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-material-processing.git?rev=v1.0.6" },
     { name = "nomad-measurements", marker = "extra == 'plugins'", specifier = ">=1.3.4" },
     { name = "nomad-measurements", extras = ["nexus"] },
     { name = "nomad-north-jupyter", marker = "extra == 'plugins'", specifier = ">=0.2.5" },
@@ -3841,8 +3841,8 @@ infrastructure = [
 
 [[package]]
 name = "nomad-material-processing"
-version = "0.1.dev98+g40be6e82d"
-source = { git = "https://github.com/timval-differ/nomad-material-processing.git?rev=main#40be6e82d28322d44b0eceb4bf83ba000f0920ab" }
+version = "1.0.6"
+source = { git = "https://github.com/FAIRmat-NFDI/nomad-material-processing.git?rev=v1.0.6#a0508a2ec3c38d61276795b7809c2f94862e0398" }
 dependencies = [
     { name = "nomad-lab" },
 ]
