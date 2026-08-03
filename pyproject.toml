@@ -38,6 +38,7 @@ plugins = [
     "pynxtools-ellips==0.1.2",
     "pynxtools-xrd==0.0.8",
     "nomad-material-processing @ git+https://github.com/timval-differ/nomad-material-processing.git@main",
+    "nomad-differ-plugin @ git+https://github.com/timval-differ/nomad-differ-plugin.git@main",
 ]
 
 jupyter = [
