@@ -3702,7 +3702,7 @@ requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "jupyterhub", marker = "extra == 'jupyter'" },
     { name = "jupyterlab-server", marker = "extra == 'jupyter'" },
-    { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0b1" },
+    { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0b2" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'", specifier = "==1.4.3" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.3" },
     { name = "nomad-material-processing", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-material-processing.git?rev=v1.0.6" },
@@ -3717,19 +3717,20 @@ provides-extras = ["plugins", "jupyter", "gpu-action", "cpu-action", "dev"]
 
 [[package]]
 name = "nomad-gui"
-version = "2.0.0b2.dev633+g229dcf453"
+version = "2.0.0b3.dev726+g3fc2bd343"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "click" },
     { name = "fastapi" },
     { name = "filelock" },
+    { name = "httpx" },
     { name = "nomad-lab", extra = ["infrastructure"] },
     { name = "plotly" },
     { name = "starlette" },
 ]
-sdist = { url = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/files/e6f14885d70deebdf16623e5b7374cc41f5f66f4361335411726fcde847dcd9b/nomad_gui-2.0.0b2.dev633+g229dcf453.tar.gz", hash = "sha256:e6f14885d70deebdf16623e5b7374cc41f5f66f4361335411726fcde847dcd9b" }
+sdist = { url = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/files/5ed1fb6e9710f017fc1dd495b8ffac12c021d4f369c39f0d85d178d0c0b4d98c/nomad_gui-2.0.0b3.dev726+g3fc2bd343.tar.gz", hash = "sha256:5ed1fb6e9710f017fc1dd495b8ffac12c021d4f369c39f0d85d178d0c0b4d98c" }
 wheels = [
-    { url = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/files/005dcd76ecaf397e8aea03102de386db6e15a34f118d9bef92e37a57baa676f1/nomad_gui-2.0.0b2.dev633+g229dcf453-py3-none-any.whl", hash = "sha256:005dcd76ecaf397e8aea03102de386db6e15a34f118d9bef92e37a57baa676f1" },
+    { url = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/files/c3489c61255b7654aa9e2fa34418f17c4e2c5386a1af28239980b43c8838ce38/nomad_gui-2.0.0b3.dev726+g3fc2bd343-py3-none-any.whl", hash = "sha256:c3489c61255b7654aa9e2fa34418f17c4e2c5386a1af28239980b43c8838ce38" },
 ]
 
 [[package]]
