@@ -3671,17 +3671,6 @@ wheels = [
 ]
 
 [[package]]
-name = "nomad-differ-plugin"
-version = "0.1.0"
-source = { git = "https://github.com/timval-differ/nomad-differ-plugin.git?rev=v0.0.0-alpha#0c6a6a39734cb6703a858b252aee3964e73a5ce0" }
-dependencies = [
-    { name = "fastapi" },
-    { name = "nomad-lab" },
-    { name = "pydantic" },
-    { name = "temporalio" },
-]
-
-[[package]]
 name = "nomad-distribution"
 source = { editable = "." }
 dependencies = [
@@ -3699,7 +3688,6 @@ jupyter = [
     { name = "jupyterlab-server" },
 ]
 plugins = [
-    { name = "nomad-differ-plugin" },
     { name = "nomad-gui" },
     { name = "nomad-material-processing" },
     { name = "nomad-measurements" },
@@ -3714,7 +3702,6 @@ requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "jupyterhub", marker = "extra == 'jupyter'" },
     { name = "jupyterlab-server", marker = "extra == 'jupyter'" },
-    { name = "nomad-differ-plugin", marker = "extra == 'plugins'", git = "https://github.com/timval-differ/nomad-differ-plugin.git?rev=v0.0.0-alpha" },
     { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0b1" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'", specifier = "==1.4.3" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.3" },
