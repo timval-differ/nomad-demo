@@ -3715,7 +3715,7 @@ requires-dist = [
     { name = "jupyterhub", marker = "extra == 'jupyter'" },
     { name = "jupyterlab-server", marker = "extra == 'jupyter'" },
     { name = "nomad-differ-plugin", marker = "extra == 'plugins'", git = "https://github.com/timval-differ/nomad-differ-plugin.git?rev=d553d0284a003779eed80d0a40fa387ddc260288" },
-    { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0b3" },
+    { name = "nomad-gui", marker = "extra == 'plugins'" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'", specifier = "==1.4.3" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.3" },
     { name = "nomad-material-processing", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-material-processing.git?rev=v1.0.6" },
