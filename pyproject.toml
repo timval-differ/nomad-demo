@@ -28,6 +28,9 @@ dependencies = [
 [project.urls]
 repository = "https://github.com/timval-differ/nomad-demo"
 
+[project.entry-points.'nomad.plugin']
+hello_dashboard = "nomad_example.dashboards:hello_dashboard_entry_point"
+
 [project.optional-dependencies]
 # Add your plugins to the list below.
 plugins = [
