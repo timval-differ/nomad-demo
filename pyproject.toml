@@ -38,7 +38,6 @@ plugins = [
     "pynxtools-ellips==0.1.2",
     "pynxtools-xrd==0.0.8",
     "nomad-material-processing @ git+https://github.com/FAIRmat-NFDI/nomad-material-processing.git@v1.0.6",
-    "nomad-differ-plugin @ git+https://github.com/timval-differ/nomad-differ-plugin.git@d553d0284a003779eed80d0a40fa387ddc260288"
 ]
 
 
