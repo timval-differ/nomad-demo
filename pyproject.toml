@@ -38,7 +38,7 @@ plugins = [
     "pynxtools-ellips==0.1.2",
     "pynxtools-xrd==0.0.8",
     "nomad-material-processing @ git+https://github.com/FAIRmat-NFDI/nomad-material-processing.git@v1.0.6",
-    "differ-pld4energy-schemas @ https://github.com/timval-differ/differ-pld4energy-schemas.git@v0.1.0"
+    "differ-pld4energy-schemas @ git+https://github.com/timval-differ/differ-pld4energy-schemas.git@v0.1.0"
 ]
 
 
